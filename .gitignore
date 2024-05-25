@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Serilog.Console.Testing.Application/bin/Debug/net8.0
+/Serilog.Console.Testing.Application/obj
+/Serilog.WebAPI.Testing.Application/bin/Debug/net8.0
+/Serilog.WebAPI.Testing.Application/obj
