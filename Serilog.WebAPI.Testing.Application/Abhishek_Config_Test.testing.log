@@ -1,0 +1,26 @@
+2024-06-16 12:21:10.740 +02:00 [INF] Now listening on: https://localhost:7296
+2024-06-16 12:21:10.757 +02:00 [INF] Now listening on: http://localhost:5057
+2024-06-16 12:21:10.762 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-16 12:21:10.764 +02:00 [INF] Hosting environment: Development
+2024-06-16 12:21:10.766 +02:00 [INF] Content root path: C:\Projects\GitHub\Simaira.Serilog.Testing.Application\Serilog.WebAPI.Testing.Application
+2024-06-16 12:21:11.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7296/swagger/index.html - null null
+2024-06-16 12:21:11.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7296/swagger/index.html - 200 null text/html;charset=utf-8 250.6641ms
+2024-06-16 12:21:11.682 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-16 12:21:11.689 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_framework/aspnetcore-browser-refresh.js - 200 13804 application/javascript; charset=utf-8 6.9853ms
+2024-06-16 12:21:11.702 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7296/_vs/browserLink - null null
+2024-06-16 12:21:11.741 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7296/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.5311ms
+2024-06-16 12:21:11.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7296/swagger/v1/swagger.json - null null
+2024-06-16 12:21:11.912 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.1791ms
+2024-06-16 12:21:20.488 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7296/WeatherForecast - null null
+2024-06-16 12:21:20.504 +02:00 [INF] Executing endpoint 'Serilog.WebAPI.Testing.Application.Controllers.WeatherForecastController.Get (Serilog.WebAPI.Testing.Application)'
+2024-06-16 12:21:20.520 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog.WebAPI.Testing.Application.WeatherForecast] Get() on controller Serilog.WebAPI.Testing.Application.Controllers.WeatherForecastController (Serilog.WebAPI.Testing.Application).
+2024-06-16 12:21:20.563 +02:00 [INF] Executing action method Serilog.WebAPI.Testing.Application.Controllers.WeatherForecastController.Get (Serilog.WebAPI.Testing.Application) - Validation state: "Valid"
+2024-06-16 12:21:22.333 +02:00 [INF] LogInformation >> Abhishek WeatherForecastController
+2024-06-16 12:21:22.341 +02:00 [WRN] LogWarning >> Abhishek WeatherForecastController
+2024-06-16 12:21:22.347 +02:00 [ERR] LogError >> Abhishek WeatherForecastController
+2024-06-16 12:21:22.352 +02:00 [INF] Executed action method Serilog.WebAPI.Testing.Application.Controllers.WeatherForecastController.Get (Serilog.WebAPI.Testing.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1780.9361ms.
+2024-06-16 12:21:22.363 +02:00 [INF] Executing ObjectResult, writing value of type 'Serilog.WebAPI.Testing.Application.WeatherForecast[]'.
+2024-06-16 12:21:22.377 +02:00 [INF] Executed action Serilog.WebAPI.Testing.Application.Controllers.WeatherForecastController.Get (Serilog.WebAPI.Testing.Application) in 1849.9037ms
+2024-06-16 12:21:22.384 +02:00 [INF] Executed endpoint 'Serilog.WebAPI.Testing.Application.Controllers.WeatherForecastController.Get (Serilog.WebAPI.Testing.Application)'
+2024-06-16 12:21:22.391 +02:00 [INF] HTTP GET to '/WeatherForecast' responded with 200 in 1884.5517 ms
+2024-06-16 12:21:22.395 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7296/WeatherForecast - 200 null application/json; charset=utf-8 1907.4315ms
